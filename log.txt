@@ -1,4 +1,12 @@
-Conversão: ApiConversionModel[baseCode=USD, targetCode=BRL, conversionResult=44998.397]
-Data e hora: 20240506_230923
-Conversão: ApiConversionModel[baseCode=USD, targetCode=BRL, conversionResult=303772.1549]
-Data e hora: 20240506_230928
+Valor em BRL 150.0
+ Conversão: 29.565 USD
+Data e hora: 20240507_181825
+Valor em BRL 200.0
+ Conversão: 39.42 USD
+Data e hora: 20240507_181832
+Valor: BRL 300.0
+Conversão: USD 59.13
+Data e hora: 20240507_182751
+Valor: BRL 350.0
+Conversão: USD 68.985
+Data e hora: 20240507_182757

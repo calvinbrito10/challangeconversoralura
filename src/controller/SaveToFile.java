@@ -24,10 +24,13 @@ public class SaveToFile {
         this.apiConversionModel = apiConversionModel;
     }
 
-    public void salvaLog(ApiConversionModel apiConversionModel) {
+    //Salva conversões em arquivo de Log
+    public void salvaLog(ApiConversionModel apiConversionModel, double inicialValue) {
         try {
             BufferedWriter writer = new BufferedWriter(new FileWriter(file, true));
-            writer.write("Conversão: " + apiConversionModel.toString()
+            writer.write(
+                    "Valor: " + apiConversionModel.baseCode() + " "+ inicialValue
+                    +"\nConversão: " + apiConversionModel.targetCode() + " " + apiConversionModel.conversionResult()
                     + "\n"
                     + "Data e hora: " + new SimpleDateFormat("yyyyMMdd_HHmmss")
                     .format(Calendar.getInstance()

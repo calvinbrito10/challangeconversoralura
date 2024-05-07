@@ -10,7 +10,7 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
-public class DirectConvertion {
+public abstract class DirectConvertion {
     private ApiConversionModel apiConversionModel;
     private String apiKey;
 
@@ -47,4 +47,6 @@ public class DirectConvertion {
     public ApiConversionModel getApiConversionModel() {
         return apiConversionModel;
     }
+
+    public abstract void convert ();
 }
