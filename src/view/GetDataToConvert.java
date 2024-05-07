@@ -26,6 +26,66 @@ public class GetDataToConvert {
         }
     }
 
+    public void interactionClassUsdToEur () {
+        try {
+            System.out.println("Digite a quantidade que deseja converter: ");
+            String value = moneyToBeConverted.nextLine();
+            DirectConvertion directConvertion = new DirectConvertion(apiKey);
+            System.out.println("Valor Convertido: " + directConvertion.amountConverted(value, "USD", "EUR"));
+            save.salvaLog(directConvertion.getApiConversionModel());
+        } catch (Exception e) {
+            System.out.println("Ocorreu um erro: " + e.getMessage());
+        }
+    }
+
+    public void interactionClassBrlToUsd () {
+        try {
+            System.out.println("Digite a quantidade que deseja converter: ");
+            String value = moneyToBeConverted.nextLine();
+            DirectConvertion directConvertion = new DirectConvertion(apiKey);
+            System.out.println("Valor Convertido: " + directConvertion.amountConverted(value, "BRL", "USD"));
+            save.salvaLog(directConvertion.getApiConversionModel());
+        } catch (Exception e) {
+            System.out.println("Ocorreu um erro: " + e.getMessage());
+        }
+    }
+
+    public void interactionClassUsdToJpy () {
+        try {
+            System.out.println("Digite a quantidade que deseja converter: ");
+            String value = moneyToBeConverted.nextLine();
+            DirectConvertion directConvertion = new DirectConvertion(apiKey);
+            System.out.println("Valor Convertido: " + directConvertion.amountConverted(value, "USD", "JPY"));
+            save.salvaLog(directConvertion.getApiConversionModel());
+        } catch (Exception e) {
+            System.out.println("Ocorreu um erro: " + e.getMessage());
+        }
+    }
+
+    public void interactionClassJpyToBrl () {
+        try {
+            System.out.println("Digite a quantidade que deseja converter: ");
+            String value = moneyToBeConverted.nextLine();
+            DirectConvertion directConvertion = new DirectConvertion(apiKey);
+            System.out.println("Valor Convertido: " + directConvertion.amountConverted(value, "JPY", "BRL"));
+            save.salvaLog(directConvertion.getApiConversionModel());
+        } catch (Exception e) {
+            System.out.println("Ocorreu um erro: " + e.getMessage());
+        }
+    }
+
+    public void interactionClassBrlToGbp () {
+        try {
+            System.out.println("Digite a quantidade que deseja converter: ");
+            String value = moneyToBeConverted.nextLine();
+            DirectConvertion directConvertion = new DirectConvertion(apiKey);
+            System.out.println("Valor Convertido: " + directConvertion.amountConverted(value, "BRL", "GBP"));
+            save.salvaLog(directConvertion.getApiConversionModel());
+        } catch (Exception e) {
+            System.out.println("Ocorreu um erro: " + e.getMessage());
+        }
+    }
+
 
 
 }

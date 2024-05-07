@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04a837e0-dfdd-44fe-93b4-f42c57b8848a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="04a837e0-dfdd-44fe-93b4-f42c57b8848a" name="Changes" comment="Adicionadas metodos de conversão a outras moedas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challangeconversoralura.iml" beforeDir="false" afterPath="$PROJECT_DIR$/challangeconversoralura.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/GetDataToConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/GetDataToConvert.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +24,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "calvinbrito10"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/calvinbrito10/challangeconversoralura.git",
+    "accountId": "df820d62-b080-438c-9dc1-9b02fd5995a8"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2g7DD6qQpbWy6nvFZ3CiXt4wwpy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,7 +52,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/calvi/Documents/Having Fun With Java/challangeconversoralura/Bibliotecas Externas/gson-2.10.1.jar",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/FDC/Documents/Challengebackend/challangeconversoralura",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -93,6 +104,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adicionadas metodos de conversão a outras moedas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionadas metodos de conversão a outras moedas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
