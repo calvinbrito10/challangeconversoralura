@@ -1,0 +1,4 @@
+Conversão: ApiConversionModel[baseCode=USD, targetCode=BRL, conversionResult=44998.397]
+Data e hora: 20240506_230923
+Conversão: ApiConversionModel[baseCode=USD, targetCode=BRL, conversionResult=303772.1549]
+Data e hora: 20240506_230928
