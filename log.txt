@@ -10,3 +10,12 @@ Data e hora: 20240507_182751
 Valor: BRL 350.0
 Conversão: USD 68.985
 Data e hora: 20240507_182757
+Valor: BRL 2502.0
+Conversão: USD 492.894
+Data e hora: 20240508_095321
+Valor: BRL 450.0
+Conversão: USD 88.65
+Data e hora: 20240508_095356
+Valor: BRL 1560.9
+Conversão: USD 307.4973
+Data e hora: 20240508_095408
