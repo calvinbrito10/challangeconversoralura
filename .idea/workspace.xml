@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04a837e0-dfdd-44fe-93b4-f42c57b8848a" name="Changes" comment="Adicionadas metodos de conversão a outras moedas">
-      <change afterPath="$PROJECT_DIR$/src/view/FacadeConvertion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_05_2024_09_50__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_05_2024_09_50__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_05_2024_09_50__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_05_2024_09_50__Changes_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/DirectConvertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/DirectConvertion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/SaveToFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/SaveToFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/GetDataToConvert.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
