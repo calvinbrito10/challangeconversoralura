@@ -18,6 +18,7 @@ public abstract class DirectConvertion {
         this.apiKey = apiKey;
     }
 
+    //Utiliza recurso oferecido pela API para conversão direta
     public double amountConverted (String amount, String fromCurrence, String toCurrence) {
         try {
             HttpClient client = HttpClient.newBuilder()
