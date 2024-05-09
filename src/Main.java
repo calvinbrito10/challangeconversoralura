@@ -1,4 +1,5 @@
 import controller.ConvertBrlToUsd;
+import model.ApiConversionModel;
 import view.FacadeConvertion;
 
 public class Main {
@@ -7,6 +8,8 @@ public class Main {
         convertBrlToUsd.convert();
         FacadeConvertion facadeConvertion = new FacadeConvertion();
         facadeConvertion.BrlToUsd();
+
+        ApiConversionModel api = new ApiConversionModel("", "", 20, 20);
 
 
     }
