@@ -5,7 +5,6 @@ import model.ApiConversionModel;
 import java.io.*;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Timer;
 
 public class SaveToFile {
 
@@ -37,6 +36,20 @@ public class SaveToFile {
                             .getTime())
                     +"\n");
             writer.close();
+        } catch (RuntimeException e){
+            System.out.println("Um erro ocorreu: " + e.getMessage());
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void logCleaner() {
+        try {
+            BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+            writer.write(
+                    " No momento não existem conversões salvas");
+            writer.close();
+            System.out.println("Limpeza efetuada com sucesso!");
         } catch (RuntimeException e){
             System.out.println("Um erro ocorreu: " + e.getMessage());
         } catch (IOException e) {

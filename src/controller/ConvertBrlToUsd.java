@@ -11,6 +11,7 @@ public class ConvertBrlToUsd extends DirectConvertion{
         this.save = new SaveToFile();
     }
 
+
     public void convert() {
         try {
             System.out.println("Digite a quantidade que deseja converter: ");

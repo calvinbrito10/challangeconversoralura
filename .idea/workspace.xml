@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04a837e0-dfdd-44fe-93b4-f42c57b8848a" name="Changes" comment="Adicionadas metodos de conversão a outras moedas">
-      <change afterPath="$PROJECT_DIR$/src/controller/ConvertionsMade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ConvertBrlToUsd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ConvertBrlToUsd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/DirectConvertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/DirectConvertion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/ApiConversionModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ApiConversionModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/FacadeConvertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/FacadeConvertion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

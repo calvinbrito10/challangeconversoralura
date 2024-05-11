@@ -40,41 +40,16 @@ public abstract class DirectConvertion {
         } catch (Exception e) {
             System.out.println("Ocorreu um erro: " + e.getMessage());
         }
-
-
-
         return 0;
     }
 
-    public double amountConverted (String amount, String fromCurrence, String toCurrence, double Value) {
-        try {
-            HttpClient client = HttpClient.newBuilder()
-                    .build();
-            HttpRequest request = HttpRequest.newBuilder()
-                    .uri(URI
-                            .create("https://v6.exchangerate-api.com/v6/"+ apiKey +"/pair/"+ fromCurrence +"/"+ toCurrence +"/"+ amount))
-                    .build();
-            HttpResponse<String> response = client
-                    .send(request, HttpResponse.BodyHandlers.ofString());
-            String json = response.body();
-            System.out.println(json);
-            Gson gson = new GsonBuilder().setFieldNamingPolicy(FieldNamingPolicy.LOWER_CASE_WITH_UNDERSCORES).create();
-            apiConversionModel = gson.fromJson(json, ApiConversionModel.class);
-            System.out.println(apiConversionModel.toString());
-            return apiConversionModel.conversionResult();
-
-        } catch (Exception e) {
-            System.out.println("Ocorreu um erro: " + e.getMessage());
-        }
-
-
-
-        return 0;
-    }
 
     public ApiConversionModel getApiConversionModel() {
         return apiConversionModel;
     }
 
-    public abstract void convert ();
+    public abstract void convert (  );
+
+
+
 }
