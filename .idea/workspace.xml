@@ -8,9 +8,15 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ConvertBrlToGbp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ConvertBrlToGbp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/ConvertBrlToUsd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ConvertBrlToUsd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ConvertJpyToBrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ConvertJpyToBrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ConvertUsdToBrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ConvertUsdToBrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ConvertUsdToEur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ConvertUsdToEur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ConvertUsdToJpy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ConvertUsdToJpy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ConvertionsMade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ConvertionsMade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/DirectConvertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/DirectConvertion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/ApiConversionModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ApiConversionModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/SaveToFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/FileHandle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/FacadeConvertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/FacadeConvertion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

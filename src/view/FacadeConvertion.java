@@ -2,15 +2,13 @@ package view;
 
 import controller.*;
 
-import java.io.BufferedReader;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
 
 public class FacadeConvertion {
 
     private DirectConvertion directConvertion;
-    private String apiKey = "f42b750b489ab51a2d3fd7e5";
+    private final String apiKey = "f42b750b489ab51a2d3fd7e5";
+
     public void BrlToUsd() {
         directConvertion = new ConvertBrlToUsd(apiKey);
         directConvertion.convert();
@@ -48,21 +46,12 @@ public class FacadeConvertion {
     }
 
     public void showConvertionsMade() throws FileNotFoundException {
-        BufferedReader reader = new BufferedReader(new FileReader("log.txt"));
-        try {
-            String line = reader.readLine();
-            while (line != null) {
-                System.out.println(line);
-                line = reader.readLine();
-            }
-            reader.close();
-        }catch (IOException e){
-            System.out.println("O seguinte erro ocorreu ao consultar o log: " + e.getMessage());
-        }
+        FileHandle viewer = new FileHandle();
+        viewer.readLog();
     }
 
     public void cleanLog() {
-        SaveToFile cleaner = new SaveToFile();
+        FileHandle cleaner = new FileHandle();
         cleaner.logCleaner();
     }
 

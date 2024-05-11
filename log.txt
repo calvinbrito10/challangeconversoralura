@@ -1,1 +1,9 @@
- 
+Valor: BRL 321131.0
+Conversão: USD 62427.8664
+Data e hora: 20240511_202348
+Valor: BRL 500.0
+Conversão: USD 97.2
+Data e hora: 20240511_202644
+Valor: USD 796.0
+Conversão: EUR 739.1656
+Data e hora: 20240511_202649

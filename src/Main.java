@@ -21,17 +21,23 @@ public class Main {
         while (stayInMenu) {
             int escolha;
             System.out.println("""
-                    Selecione uma das opções para continuar
+                    Selecione uma das opções para continuar:
+                    ******* Para Conversão *******
                     1 - Converter de Real para Dolar
                     2 - Converter de Yen para Real
                     4 - Converter de Dolar para Real
                     5 - Converter de Dolar para Euro
                     6 - Converter de Dolar para Yen
+                    
+                    ******* Outras opções *******
                     7 - Consultar Conversões feitas ate o momento
                     8 - Limpar log de conversões
+                    
+                    ******* Sair do sistema *******
                     9 - Sair
                     """);
             try {
+                System.out.print("Escolha: ");
                 escolha = entrada.nextInt();
                 switch (escolha) {
                     case 1:
